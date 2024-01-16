@@ -148,22 +148,23 @@ body {
     align-items: center;
 }
 
-#main-content-entry i{
+#main-content-entry i {
     width: fit-content;
     height: 25px;
     cursor: pointer;
     /* background-color: red; */
 }
 
-#main-content-entry i:hover{
+#main-content-entry i:hover {
     color: grey;
 }
-#main-content-entry i:active{
+
+#main-content-entry i:active {
     color: black;
 }
 
 
-#section{
+#section {
     display: none;
     width: 370px;
     height: 350px;
@@ -173,11 +174,12 @@ body {
     text-align: justify;
     transition: 0.8s visibility ease-in-out;
 }
-#section h2{
+
+#section h2 {
     margin: 0;
 }
 
-#section h5{
+#section h5 {
     font-weight: 600;
     font-size: medium;
     font-family: 'Courier New', Courier, monospace;
@@ -185,22 +187,21 @@ body {
 
 /* designing overlay */
 
-#overlay{
+#overlay {
     display: none;
     width: 100vw;
-    min-height: 80vh;
     position: absolute;
     right: -120vw;
     top: 100px;
     background-color: black;
     transition: 50ms right ease-in-out;
     z-index: 100;
-    border-top-right-radius:2rem;
-    border-top-left-radius:2rem;
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
     padding-top: 50px;
 }
 
-#overlay-history{
+#overlay-history {
     width: 100%;
     padding-left: 10%;
     padding-right: 10%;
@@ -210,13 +211,15 @@ body {
     background-color: black;
     padding-bottom: 100px;
 }
-#overlay-history-note{
+
+#overlay-history-note {
     display: none;
     color: white;
     width: fit-content;
     margin: auto;
 }
-.grid-history-item{
+
+.grid-history-item {
     width: 280px;
     min-height: 350px;
     /* border-radius: 30px; */
@@ -227,7 +230,8 @@ body {
     position: relative;
     top: 0;
 }
-.fa-trash-can{
+
+.fa-trash-can {
     font-size: 30px;
     text-align: right;
     margin-bottom: 1px;
@@ -237,7 +241,7 @@ body {
     cursor: pointer;
 }
 
-footer{
+footer {
     width: 100%;
     height: 80px;
     margin: 0;
@@ -250,7 +254,7 @@ footer{
 
 }
 
-#footer-main-container{
+#footer-main-container {
     padding-top: 5px;
     width: 270px;
     height: 100%;
@@ -259,40 +263,47 @@ footer{
     text-align: center;
     /* padding-bottom: 5px; */
 }
-#footer-main-container h3{
+
+#footer-main-container h3 {
     margin: 0;
     font-size: medium;
     font-weight: 700;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-#footer-icons-container{
+
+#footer-icons-container {
     width: 80px;
     height: 40px;
     margin: auto;
     margin-top: 8px;
     /* background-color: red; */
 }
-#footer-icons-container i{
-    font-size:xx-large;
+
+#footer-icons-container i {
+    font-size: xx-large;
     cursor: pointer;
 }
-#footer-icons-container a{
+
+#footer-icons-container a {
     text-decoration: none;
     color: black;
 }
-#footer-icons-container i:hover{
+
+#footer-icons-container i:hover {
     color: white;
 }
-#footer-icons-container i:active{
+
+#footer-icons-container i:active {
     color: black;
 }
-.fa-linkedin{
+
+.fa-linkedin {
     margin-right: 9px;
 }
 
 
 
-#main-error-section{
+#main-error-section {
     display: none;
     color: grey;
     width: fit-content;
@@ -303,25 +314,38 @@ footer{
 
 
 
-@media (max-width:540px){
-    #nav{
+@media (max-width:540px) {
+    #nav {
         padding-left: 2%;
         padding-right: 2%;
     }
-    #nav-logo-text-heading{
+
+    #nav-logo-text-heading {
         font-size: 18px;
     }
-    #nav-history-button{
+
+    #nav-history-button {
         background-color: black;
+    }
+
+    #overlay {
+        border-top-right-radius: 1.5rem;
+        border-top-left-radius: 1.5rem;
+    }
+
+    #footer {
+        border-top-right-radius: 1.5rem;
+        border-top-left-radius: 1.5rem;
     }
 }
 
-@media (max-width:390px){
-    #nav{
+@media (max-width:390px) {
+    #nav {
         padding-left: 2%;
         padding-right: 2%;
     }
-    #nav-logo-text-heading{
+
+    #nav-logo-text-heading {
         font-size: 14px;
     }
 }

@@ -143,7 +143,6 @@ function overlayTimerEnd() {
 // additional code
 document.getElementById('main-content-entry').addEventListener('keydown', async function(event) {
     if (event.key === 'Enter' || event.keyCode === 13) {
-        console.log("hello")
         if ("" !== wordInput) {
             try {
                 initial = wordInput
@@ -180,3 +179,8 @@ document.getElementById('main-content-entry').addEventListener('keydown', async 
         }
     }
 })
+
+
+const viewportHeight = window.innerHeight;
+
+document.getElementById('overlay').style['min-height']= `${viewportHeight - 120}px`
