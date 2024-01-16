@@ -196,8 +196,8 @@ body {
     background-color: black;
     transition: 50ms right ease-in-out;
     z-index: 100;
-    /* border-top-right-radius: 2rem;
-    border-top-left-radius: 2rem; */
+    border-top-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
     padding-top: 50px;
 }
 
@@ -328,10 +328,10 @@ footer {
         background-color: black;
     }
 
-    /* #overlay {
-        border-top-right-radius: 1rem;
-        border-top-left-radius: 1rem;
-    } */
+    #overlay {
+        border-top-right-radius: 0.5rem;
+        border-top-left-radius: 0.5rem;
+    }
 
     #footer {
         border-top-right-radius: 3rem;
