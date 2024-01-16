@@ -193,7 +193,7 @@ body {
     right: -120vw;
     top: 100px;
     background-color: black;
-    transition: 50ms right ease-in;
+    transition: 50ms right ease-in-out;
     z-index: 100;
     border-top-right-radius:2rem;
     border-top-left-radius:2rem;
