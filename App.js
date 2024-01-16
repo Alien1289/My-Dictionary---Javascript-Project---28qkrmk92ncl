@@ -82,7 +82,7 @@ document.getElementById('nav-history-button').addEventListener('click', function
         document.getElementById('overlay-history-note').style['display'] = 'none'
         document.getElementById('overlay-history').style['display'] = 'none'
         document.getElementById('main').style['display'] = 'flex'
-        // document.getElementById('overlay-history').innerHTML = ""
+        document.getElementById('overlay-history').innerHTML = ""
         document.getElementById('main-content-entry-input').value = ""
         document.getElementById('section').style['display'] = 'none'
 
