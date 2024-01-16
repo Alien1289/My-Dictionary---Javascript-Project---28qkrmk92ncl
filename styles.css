@@ -226,7 +226,6 @@ body {
     overflow: hidden;
     position: relative;
     top: 0;
-    /* transition: 0.8s visibility ease-in-out; */
 }
 .fa-trash-can{
     font-size: 30px;
