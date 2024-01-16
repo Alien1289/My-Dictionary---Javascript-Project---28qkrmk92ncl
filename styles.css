@@ -188,7 +188,7 @@ body {
 #overlay{
     display: none;
     width: 100vw;
-    min-height: 90vh;
+    min-height: 80vh;
     position: absolute;
     right: -120vw;
     top: 100px;
