@@ -186,7 +186,7 @@ body {
 /* designing overlay */
 
 #overlay{
-    display: block;
+    display: none;
     width: 100vw;
     min-height: 90vh;
     position: absolute;
