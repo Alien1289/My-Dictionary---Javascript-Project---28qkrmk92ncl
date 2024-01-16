@@ -98,7 +98,7 @@ body {
 
 #main {
     width: 100%;
-    height: calc(100vh - 180px);
+    height: calc(100vh - 210px);
     /* background-color: aqua; */
     display: flex;
     justify-content: space-around;
